@@ -1,0 +1,85 @@
+.hd{
+    
+    margin: 40px 50px
+  }
+  .hotelname{
+    width: 800px;
+  height: 40px;
+  font-family:'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  /* line-height: 40px; */
+  letter-spacing: -0.02em;
+  /* Gray/700 */
+  margin-bottom: 2px;
+  color: #272D37;
+  
+  
+  }
+  
+  .des{
+  width: 800px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #5F6D7E;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  }
+
+  .showmore{
+
+
+    /* Button */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 18px;
+gap: 6px;
+
+width: 118px;
+height: 46px;
+
+/* Base/White */
+
+background: #FFFFFF;
+/* Neutral/700 */
+
+border: 1px solid #DAE0E6;
+/* Shadow/XSM */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+border-radius: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+  .hds{
+
+
+    display: flex;
+    justify-content: space-between;
+  }
+  .showmore:hover{
+
+    background-color: #574EFA;
+    color: aliceblue;
+  }

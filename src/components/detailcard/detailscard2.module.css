@@ -1,0 +1,433 @@
+.card{
+    /* side bar */
+
+/* margin-right: 20px */
+box-sizing: border-box;
+margin-top: 10px;
+/* Auto layout */
+margin-right: 40px;
+margin-left: -180px;
+/* display: ; */
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+gap: 16px;
+
+width: 420px;
+height: 678px;
+
+/* Base/White */
+
+background: #FFFFFF;
+/* Neutral/700 */
+
+border: 1px solid #DAE0E6;
+/* Shadow/XL */
+
+box-shadow: 0px 8px 10px -6px rgba(16, 24, 40, 0.1), 0px 20px 25px -5px rgba(16, 24, 40, 0.1);
+border-radius: 24px;
+
+/* Inside auto layout */
+
+
+}
+
+.r{
+ display: flex;
+ justify-content: space-between;
+}
+.rate{
+/* width: 4px */
+height: 30px;
+
+/* Headline XS/Desktop/Semibold */
+margin-left: 19px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height, or 136% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+/* Base/Black */
+
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.rate2{
+    width: 38px;
+height: 24px;
+
+/* Text L/Regular */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.1px;
+
+/* Base/Black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.rates{
+
+    display: flex;
+}
+
+/* date time */
+.inout{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.where {
+    box-sizing: border-box;
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 12px;
+  
+    width: 340px;
+    height: 48px;
+  
+    /* Base/White */
+  
+    background: #ffffff;
+    /* Neutral/700 */
+  
+    border: 1px solid #dae0e6;
+    border-radius: 100px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .date {
+    box-sizing: border-box;
+  
+    /* Auto layout */
+  
+    z-index: 10;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 10px;
+  
+    width: 160px;
+    height: 48px;
+  
+    /* Base/White */
+  
+    background: #ffffff;
+    /* Neutral/700 */
+  
+    border: 1px solid #dae0e6;
+    border-radius: 100px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .time {
+    /* Input */
+  
+    box-sizing: border-box;
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 12px;
+  
+    width: 129px;
+    height: 48px;
+  
+    /* Base/White */
+  
+    background: #ffffff;
+    /* Neutral/700 */
+  
+    border: 1px solid #dae0e6;
+    border-radius: 100px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .where:hover{
+    cursor: pointer;
+  }
+  .date:hover{
+    cursor: pointer;
+    background-color: #5F6D7E; /* Change the background color on hover */
+    color: #FFFFFF;
+    
+  }
+  .time:hover{
+    cursor: pointer;
+    background-color: #5F6D7E; /* Change the background color on hover */
+    color: #FFFFFF;
+    
+  }
+  
+  .search:hover{
+    cursor: pointer;
+    background-color: #5F6D7E; /* Change the background color on hover */
+    color: #FFFFFF;
+  }
+  .guest{
+    width: 262px;
+height: 20px;
+margin-left: 25px;
+/* Text S/Medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.1px;
+
+/* Gray/700 */
+
+color: #272D37;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0
+  }
+
+  .hd{
+
+
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 2px;
+
+width: 132px;
+height: 44px;
+margin-left: 20px;
+/* Neutral/100 */
+
+background: #F8F9FB;
+/* Neutral/700 */
+
+border: 1px solid #DAE0E6;
+border-radius: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+
+  .hour{
+
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 9px 16px;
+gap: 8px;
+margin-left: 2px;
+width: 50%;
+height: 40px;
+
+/* Purple (Secondary)/600 */
+
+background:transparent;
+border-radius: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+  }
+  .day{
+
+
+    display: flex;
+/* flex-direction: row; */
+justify-content: flex-end;
+align-items: center;
+padding: 9px 16px;
+gap: 8px;
+margin-left: 2px;
+width: 50%;
+height: 40px;
+
+/* Purple (Secondary)/600 */
+
+background: #574EFA;
+border-radius: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+  .num{
+    box-sizing: border-box;
+
+/* Auto layout */
+margin-left: 20px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 20px;
+gap: 24px;
+
+width: 262px;
+height: 48px;
+
+/* Base/White */
+
+background: #FFFFFF;
+/* Neutral/700 */
+
+border: 1px solid #DAE0E6;
+border-radius: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+  .sub{
+
+
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 18px;
+gap: 6px;
+margin-top: 20px;
+margin-left: 20px;
+width: 372px;
+height: 46px;
+
+/* Base/White */
+
+background: #FFFFFF;
+/* Neutral/700 */
+
+border: 1px solid #DAE0E6;
+/* Shadow/XSM */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+border-radius: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  .sub:hover{
+
+    background-color: #574EFA;
+    color: aliceblue;
+  }
+  .fee{
+box-sizing: border-box;
+/* Auto layout */
+margin-top: 20px;
+margin-left: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 18px;
+gap: 6px;
+
+width: 372px;
+height: 46px;
+/* Base/White */
+background: #FFFFFF;
+/* Neutral/700 */
+border: 1px solid #DAE0E6;
+/* Shadow/XSM */
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+border-radius: 100px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+  .fee:hover{
+
+    background-color: #574EFA;
+    color: aliceblue;
+  }
+
