@@ -8,11 +8,9 @@ export default function index() {
     <div className="grid grid-cols-1 mx-auto">
       <Navbar />
       <div className='mt-28'>
-            <RoomStays />
-     
-  
-      <MyCarousel  />
-      <Footer1 />
+        <RoomStays />   
+        <MyCarousel  />
+        <Footer1 />
       </div>
     </div>
   );

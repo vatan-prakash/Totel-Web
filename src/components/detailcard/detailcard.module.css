@@ -24,17 +24,24 @@
   border-radius: 24px;
 }
 
-.rate{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 30px;
+.rate {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
 }
-.rate2{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+.rate2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 700px) {
+  .box {
+    width: 90%;
+    margin: 0 auto;
+  }
 }

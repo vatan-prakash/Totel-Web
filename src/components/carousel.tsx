@@ -12,19 +12,19 @@ export default function () {
       </div>
       <div className="my-6">
         <Carousel autoPlay className="gap-2">
-          <div className="flex justify-center gap-3 mx-6">
+          <div className="flex flex-col lg:flex-row justify-center gap-3 mx-6">
             <Card />
             <Card />
             <Card />
             <Card />
           </div>
-          <div className="flex justify-center gap-3 mx-6 ">
+          <div className="flex flex-col lg:flex-row justify-center gap-3 mx-6 ">
             <Card />
             <Card />
             <Card />
             <Card />
           </div>
-          <div className="flex justify-center gap-3 mx-6 ">
+          <div className="flex flex-col lg:flex-row justify-center gap-3 mx-6 ">
             <Card />
             <Card />
             <Card />

@@ -14,13 +14,12 @@ const roomstays = () => {
       <div className="py-4">
         <Container>
           <div className="flex flex-row items-center justify-between gap-2 md:gap-0">
-            <Logo/>
+            <Logo />
             <Search />
             <Usermenu />
           </div>
         </Container>
       </div>
-
       <div className="relative">
         <Image
           src="/Images/roomstays.png"
@@ -31,12 +30,12 @@ const roomstays = () => {
         />
         <div className="absolute top-0 left-0 flex items-center justify-between w-full h-full">
           <div className="w-full mx-12 my-2 overflow-y-hidden text-center bg-white h-28 rounded-3xl">
-            <Find/>
+            <Find />
           </div>
         </div>
       </div>
-      <Categories/>
-      <Footer1/>
+      <Categories />
+      <Footer1 />
     </div>
   );
 };
